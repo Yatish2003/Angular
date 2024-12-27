@@ -1,0 +1,7 @@
+
+<div *ngFor="let todo of todos">
+  <div>
+    <strong>Task {{todo.id}}:</strong> {{todo.name}} - {{todo.role}}
+  </div>
+</div>
+<button (click)="senddataToPArent()">Send Data to Parent</button>
